@@ -27,7 +27,7 @@ describe("Test suite - conjunto de pruebas",()=>{
         cy.get('.alert').contains("You successfully submitted your transaction.")
     })
 
-    it.only("Prueba de validacion del grafico",() =>{
+    it("Prueba de validacion del grafico",() =>{
         
         cy.get('#signin_button').click()
         cy.get('#user_login').type("username")
