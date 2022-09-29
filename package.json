@@ -7,6 +7,9 @@
     "pruebas-chrome": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser chrome",
     "pruebas-edge": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser edge",
     "pruebas-firefox": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser firefox",
+    "pruebas-chrome-OrangeHRM":"cypress run --spec cypress/e2e/pruebasOrangeHRM.cy.js --browser chrome",
+    "pruebas-edge-OrangeHRM":"cypress run --spec cypress/e2e/pruebasOrangeHRM.cy.js --browser chrome",
+    "pruebas-firefox-OrangeHRM":"cypress run --spec cypress/e2e/pruebasOrangeHRM.cy.js --browser chrome",
     "test2": ""
   },
   "author": "Yohander Teran",
